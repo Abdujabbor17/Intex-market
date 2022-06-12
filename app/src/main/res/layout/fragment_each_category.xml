@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".ui.user.EachCategoryFragment">
+
+    <TextView
+        android:id="@+id/name_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Каркасные бассейны"
+        android:textSize="35sp"
+        android:layout_margin="15dp"
+        android:padding="8dp"
+        android:background="@drawable/bg_button"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical"
+        android:overScrollMode="never"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+        app:reverseLayout="false"
+        app:spanCount="1"
+        tools:listitem="@layout/item_product" />
+
+</LinearLayout>

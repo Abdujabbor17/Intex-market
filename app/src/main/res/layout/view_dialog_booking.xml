@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:layout_marginHorizontal="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_dialog">
+
+    <ImageView
+        android:id="@+id/cancel_btn"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_cancel"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+    <ImageView
+        android:id="@+id/img_product"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginHorizontal="20sp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/intex"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/cancel_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cancel_btn" />
+
+    <TextView
+        android:id="@+id/cost_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.390.000 сум"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/img_product"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ваше имя"
+        android:textSize="22sp"
+        android:textColorHint="#90000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/bg_edt"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cost_tv" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/number_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edt"
+        android:hint="Ваш номер"
+        android:padding="8dp"
+        android:textColorHint="#90000000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_edt" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/address_edt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edt"
+        android:hint="Ваше имя"
+        android:padding="8dp"
+        android:textColorHint="#90000000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toStartOf="@+id/img_map"
+        app:layout_constraintHorizontal_weight="1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/number_edt" />
+
+    <ImageView
+        android:id="@+id/img_map"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/bg_edt"
+        android:padding="10dp"
+        android:src="@drawable/ic_map"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/address_edt" />
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/book_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:text="Заказать"
+        android:background="@drawable/bg_rounded_btn"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/address_edt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

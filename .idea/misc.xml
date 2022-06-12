@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/bg_button.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/btn_bg_yellow.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/ic_category.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/ic_consulting.xml" value="0.128" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/ic_phone.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/item_product_bg.xml" value="0.128" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/tv_bg_green.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/bg_dialog.xml" value="0.128" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/bg_edt.xml" value="0.128" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/bg_rounded_btn.xml" value="0.128" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/bg_tv_rounded.xml" value="0.128" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/bottom_navigation_color_selector.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/ic_add.xml" value="0.128" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/ic_instagram_post___235_2.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/ic_navigation.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/ic_phone.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/ic_slide_2_p4__1__1.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/ic_telegram.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/ic_vector.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/ic_vector__stroke_.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/navigation_txt_color.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/font/font.xml" value="0.22666666666666666" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/font/poppins_regular.xml" value="0.22666666666666666" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/activity_admin.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/activity_admin_or_user.xml" value="0.2351851851851852" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_admin_category.xml" value="0.2" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_admin_product.xml" value="0.22" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_blank.xml" value="0.2" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_booking.xml" value="0.1859375" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_category.xml" value="0.2" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_consulting.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_each_category.xml" value="0.18" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_home.xml" value="0.16" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_product.xml" value="0.2" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_admin_category.xml" value="0.2" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_admin_product.xml" value="0.25" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_category.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_product.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_product_bg.xml" value="0.19895833333333332" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/successful_dialog.xml" value="0.22" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/view_dialog_booking.xml" value="0.22" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/view_dialog_consulting.xml" value="0.2" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/menu/admin_menu.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/menu/bottom_nav.xml" value="0.1650485436893204" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/menu/drawer_menu.xml" value="0.33" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/menu/menu.xml" value="0.14074074074074075" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

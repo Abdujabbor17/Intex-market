@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginHorizontal="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.user.ConsultingFragment">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottie"
+        android:layout_width="match_parent"
+        android:padding="15dp"
+        android:layout_height="250dp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="15dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/tech_helpdesk_support"
+        app:lottie_loop="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+    <TextView
+        android:id="@+id/cost_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Получить консультацию"
+        android:textSize="23sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lottie"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/name_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ваше имя"
+        android:maxLines="1"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textColorHint="#90000000"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/bg_edt"
+        android:padding="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cost_tv" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/number_edt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_edt"
+        android:hint="Ваш номер"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:padding="8dp"
+        android:textColorHint="#90000000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_edt" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+
+        android:id="@+id/book_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:text="Заказать"
+        android:background="@drawable/bg_rounded_btn"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/number_edt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

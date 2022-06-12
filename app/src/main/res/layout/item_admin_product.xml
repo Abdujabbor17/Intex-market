@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="8dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_product"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_weight="0.6"
+            android:scaleType="centerCrop"
+            android:src="@drawable/intex"
+            app:shapeAppearanceOverlay="@style/rounded" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/old_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Old Price: 1.000.000 sum"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/new_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Price: 900.000 sum"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_marginTop="5dp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/shape"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Shape: Прямоугольная"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+             <TextView
+                android:id="@+id/size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Size:   3.05 x 2.20"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/depth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Size: 60 cm"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/more_iv"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="3dp"
+            android:src="@drawable/ic_more"
+            android:clickable="true"
+            android:focusable="true" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

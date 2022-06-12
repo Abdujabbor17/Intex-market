@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+          <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category"
+            android:title="Categories" />
+
+          <item
+            android:id="@+id/nav_consulting"
+            android:icon="@drawable/ic_consulting"
+            android:title="Consulting" />
+
+
+    </group>
+
+    <item android:title="Socials">
+        <menu>
+            <item
+                android:id="@+id/nav_phone"
+                android:icon="@drawable/ic_phone"
+                android:title="Qo'ng'iroq" />
+
+            <item
+                android:id="@+id/nav_telegram"
+                android:icon="@drawable/ic_telegram"
+                android:title="Telegram" />
+
+            <item
+                android:id="@+id/nav_instagram"
+                android:icon="@drawable/ic_camera"
+                android:title="Instagram" />
+        </menu>
+    </item>
+
+</menu>
