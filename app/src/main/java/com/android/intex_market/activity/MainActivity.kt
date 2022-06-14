@@ -8,6 +8,8 @@ import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.GravityCompat
 import androidx.fragment.app.Fragment
+import androidx.navigation.fragment.NavHostFragment
+import androidx.navigation.ui.setupWithNavController
 import com.android.intex_market.App
 import com.android.intex_market.R
 import com.android.intex_market.databinding.ActivityMainBinding
@@ -20,11 +22,16 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
     lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        binding = ActivityMainBinding.inflate(layoutInflater)
         super.onCreate(savedInstanceState)
+        binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        loadFragment(HomeFragment())
+        initViews()
+
+    }
+
+    private fun initViews() {
+
         val toggle = ActionBarDrawerToggle(
             this, binding.drawerLayout, binding.toolbar,
             R.string.navigation_drawer_open, R.string.navigation_drawer_close
@@ -32,27 +39,19 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
         binding.drawerLayout.addDrawerListener(toggle)
         toggle.syncState()
         binding.navView.setNavigationItemSelectedListener(this)
-        bottomNavigationManagement()
+
+        setNavigation()
     }
 
-    private fun bottomNavigationManagement() {
-        binding.bottomNavigationView.setOnNavigationItemSelectedListener {
-            when (it.itemId) {
-                R.id.homeFragment -> {
-                    loadFragment(HomeFragment())
-                    true
-                }
-                else -> {
-                    loadFragment(CategoryFragment())
-                    true
-                }
-            }
-        }
+    private fun setNavigation() {
+        val navHostFragment =
+            supportFragmentManager.findFragmentById(R.id.navHostFragment) as NavHostFragment
+        binding.bottomNavigationView.setupWithNavController(navHostFragment.navController)
     }
 
     fun loadFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, fragment)
+            .replace(R.id.navHostFragment, fragment)
             .addToBackStack(null)
             .commit()
     }

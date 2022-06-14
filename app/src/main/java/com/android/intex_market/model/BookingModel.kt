@@ -1,6 +1,6 @@
 package com.android.intex_market.model
 
-data class ZakazModel(
+data class BookingModel(
     val active: Boolean,
     val address: String,
     val count: Int,

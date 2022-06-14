@@ -5,11 +5,16 @@
       <map>
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/bg_button.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/btn_bg_yellow.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/button_bg_accepted.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/button_bg_red.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/button_bg_unaccepted.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/ic_category.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/ic_consulting.xml" value="0.128" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/ic_phone.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/item_product_bg.xml" value="0.128" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/tablayoutbackround.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/tv_bg.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable-v24/tv_bg_green.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/bg_dialog.xml" value="0.128" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/bg_edt.xml" value="0.128" />
@@ -28,21 +33,27 @@
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/drawable/navigation_txt_color.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/font/font.xml" value="0.22666666666666666" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/font/poppins_regular.xml" value="0.22666666666666666" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout-v23/item_booking_list.xml" value="0.2" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/activity_admin.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/activity_admin_or_user.xml" value="0.2351851851851852" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_admin_category.xml" value="0.2" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_admin_product.xml" value="0.22" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_blank.xml" value="0.2" />
-        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_booking.xml" value="0.1859375" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_booking.xml" value="0.18" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_booking_list.xml" value="0.17412935323383086" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_category.xml" value="0.2" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_consulting.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_consulting_list.xml" value="0.17412935323383086" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_each_category.xml" value="0.18" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_home.xml" value="0.16" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_product.xml" value="0.2" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/fragment_site.xml" value="0.2" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_admin_category.xml" value="0.2" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_admin_product.xml" value="0.25" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_booking_list.xml" value="0.25" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_category.xml" value="0.1" />
+        <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_consulting_list.xml" value="0.2" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_product.xml" value="0.1" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/item_product_bg.xml" value="0.19895833333333332" />
         <entry key="..\:/Android/Real/Intex-market/app/src/main/res/layout/successful_dialog.xml" value="0.22" />

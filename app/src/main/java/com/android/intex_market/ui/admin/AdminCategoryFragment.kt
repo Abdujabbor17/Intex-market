@@ -1,28 +1,18 @@
 package com.android.intex_market.ui.admin
 
-import android.annotation.SuppressLint
-import android.content.Intent
 import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.android.intex_market.R
-import com.android.intex_market.activity.AdminActivity
-import com.android.intex_market.activity.MainActivity
 import com.android.intex_market.adapter.admin.AdminCategoryAdapter
 import com.android.intex_market.databinding.FragmentAdminCategoryBinding
 import com.android.intex_market.model.CategoryModel
 import com.android.intex_market.networking.ApiClient
 import com.android.intex_market.ui.BaseFragment
-import com.android.intex_market.ui.user.EachCategoryFragment
 import com.android.intex_market.utils.viewBinding
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import java.lang.reflect.Array.newInstance
-import javax.xml.datatype.DatatypeFactory.newInstance
-import javax.xml.transform.TransformerFactory.newInstance
 
 
 class AdminCategoryFragment : BaseFragment(R.layout.fragment_admin_category) {
@@ -40,7 +30,7 @@ class AdminCategoryFragment : BaseFragment(R.layout.fragment_admin_category) {
         adapter = AdminCategoryAdapter()
 
         adapter.itemClick = {
-            findNavController().navigate(R.id.action_productFragment2_to_adminProductFragment)
+            findNavController().navigate(R.id.action_adminCategoryFragment_to_adminProductFragment)
         }
     }
 

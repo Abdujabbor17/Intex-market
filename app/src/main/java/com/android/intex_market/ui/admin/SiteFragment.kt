@@ -6,18 +6,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.android.intex_market.R
+import com.android.intex_market.databinding.FragmentConsultingListBinding
 import com.android.intex_market.databinding.FragmentSiteBinding
 import com.android.intex_market.ui.BaseFragment
+import com.android.intex_market.utils.viewBinding
 
 class SiteFragment : BaseFragment(R.layout.fragment_site) {
-    lateinit var binding:FragmentSiteBinding
-    override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
-        savedInstanceState: Bundle?
-    ): View {
-        binding = FragmentSiteBinding.inflate(layoutInflater)
+
+    private val binding by viewBinding { FragmentSiteBinding.bind(it) }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
         initViews()
-        return binding.root
     }
 
     private fun initViews() {

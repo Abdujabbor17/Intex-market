@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.fragment.findNavController
 import com.android.intex_market.R
 import com.android.intex_market.activity.MainActivity
 import com.android.intex_market.adapter.CategoryAdapter
@@ -37,7 +38,7 @@ class CategoryFragment : BaseFragment(R.layout.fragment_category) {
         adapter  = CategoryAdapter()
 
         adapter.itemClick = {
-            (requireActivity() as MainActivity).loadFragment(EachCategoryFragment())
+           findNavController().navigate(R.id.action_categoryFragment_to_eachCategoryFragment)
         }
     }
 
